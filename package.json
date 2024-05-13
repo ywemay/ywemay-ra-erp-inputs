@@ -1,17 +1,32 @@
 {
   "name": "ywemay-ra-erp-inputs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "YWEmay react-admin ERP common inputs",
   "main": "index.js",
   "repository": "git@github.com:ywemay/ywemay-ra-erp-inputs.git",
   "author": "Chibuc Dorin",
   "license": "MIT",
-  "devDependencies": {},
-  "dependencies": {
+  "scripts": {
+    "test": "vite"
+  },
+  "devDependencies": {
+    "@mui/icons-material": "^5.15.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "react": "^18.3.1",
     "react-admin": "^4.16.17",
+    "react-dom": "^18.3.1",
     "react-hook-form": "^7.51.4",
+    "vite": "^5.2.11"
+  },
+  "dependencies": {
     "ywemay-erp-choices": "^1.0.0",
-    "ywemay-ra-erp-fields": "^1.0.0",
-    "ywemay-ra-utils": "^1.0.1"
+    "ywemay-ra-erp-fields": "^1.0.1",
+    "ywemay-ra-utils": "^1.0.3"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-admin": "^4.16.17",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.51.4"
   }
 }
