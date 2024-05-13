@@ -1,0 +1,15 @@
+{
+  "name": "ywemay-ra-erp-inputs",
+  "version": "1.0.0",
+  "description": "YWEmay react-admin ERP common inputs",
+  "main": "index.js",
+  "repository": "git@github.com:ywemay/ywemay-ra-erp-inputs.git",
+  "author": "Chibuc Dorin",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "react-admin": "^4.16.17",
+    "react-hook-form": "^7.51.4",
+    "ywemay-erp-choices": "^1.0.0"
+  }
+}
