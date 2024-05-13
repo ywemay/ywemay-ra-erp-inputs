@@ -2,7 +2,7 @@ import {
   SelectInput,
 } from "react-admin";
 
-import { units } from "ywemay-erp-choices/units";
+import { units } from "ywemay-erp-choices";
 
 export function SelectMUInput(props) {
   return <SelectInput

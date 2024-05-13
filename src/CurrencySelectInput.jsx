@@ -1,9 +1,9 @@
-import { SelectInput, useGetList } from "react-admin";
+import { SelectInput } from "react-admin";
 
 const data = [
-  {id: 'CNY'},
-  {id: 'USD'},
-  {id: 'EUR'},
+  { id: 'CNY' },
+  { id: 'USD' },
+  { id: 'EUR' },
 ]
 export function CurrencySelectInput(props) {
   return <SelectInput
